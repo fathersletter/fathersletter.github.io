@@ -1,0 +1,66 @@
+/* Global */
+*{
+	position: relative;
+	box-sizing: border-box;
+	word-break: break-all;
+}
+
+body{
+
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+.main-bg{
+	background: white;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.givePadding{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+/* letter */
+.letter{
+	background: #FAD689;
+}
+
+/* instruction */
+.instruction-head{
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.instruction{
+	background: #FAD689;
+}
+
+.instruction-text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+.instruction ol{
+	margin-left: -15px;
+}
+
+/* answer */
+.answer{
+	background: #A5DEE4;
+	text-align: center;
+}
+
+/* footer */
+.footer{
+	background: #0B346E;
+	color: white;
+}
