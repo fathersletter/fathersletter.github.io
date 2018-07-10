@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>【江子翠散步解謎】父親的情書：第一章</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=1;">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main-bg"></div>
+
+		<!-- start navbar -->
+		<nav class="navbar navbar-dark color-primary">
+			<span class="navbar-brand mb-0 h2">江子翠散步解謎</span>
+		</nav>
+		<!-- end navbar -->
+
+		<!-- start jumbotron -->
+		<div class="margin0 jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4 text-center">父親的情書</h1>
+			</div>
+		</div>
+		<!-- end jumbotron -->
+
+		<!-- start letter -->
+		<div class="letter givePadding">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col col-sm-8">
+						<h3 class="text-center">第一章</h3>
+<div class="givePaddingTop">
+<img src="img/letter/1-letter.png" width="100%">
+</div>
+<div class="givePaddingTop">
+<p>父親留下的紙條這麼寫著。</p>
+<p>「所以說啊，我現在到底應該做什麼？」母親手撐著頭，睜大眼無辜的望著你。</p>
+<p>你無奈地嘆口氣：「爸不是寫了嗎？從你們習慣的散步路線起點開始啊。你們平常都從哪開始散步的？」</p>
+<p>「嗯──」母親苦苦思索：「如果家裡不算的話，應該是農村公園的入口吧？面對潮和宮那裡。」</p>
+<p>「既然有想法，就開始行動吧！別忘了帶撲克牌啊！」</p>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end letter -->
+
+		<!-- start answer -->
+		<div class="answer givePadding">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col col-sm-8">
+					<p>答案：一位數字</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+<div class="col">
+<input type="text" class="form-control" id="StringTextBox">
+</div>
+				</div>
+				<div class="row justify-content-center">
+<div class="col">
+<input type="button" class="btn btn-primary" value="確定" onclick="ChangeString()">
+</div>
+				</div>
+<div id="reply" style="text-align:center;"></div>
+
+<script>
+function ChangeString()
+	{
+	var site=document.getElementById("StringTextBox").value;
+		if(site=="5"){
+			var NewStringValue = "正確，前往下一章";
+			var result = '<a href="https://fathersletter.github.io/2-5.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a>';
+		}
+		else {var result="答案錯誤，請重新輸入。";}
+	document.getElementById("reply").innerHTML=result;
+	}
+</script>
+				</div>
+			</div>
+		</div>
+		<!-- end answer -->
+
+		<!-- start clue -->
+		<div class="clue container givePadding">
+			<div class="row justify-content-center">
+				<div class="col col-sm-8">
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header color-primary" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn color-primary clue-head" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          需要提示嗎？
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        點擊下方問題，提示會立即出現，請審慎服用。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          農村公園的入口在哪裡？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        善用手上的道具：地圖，從江子翠捷運站1後出口直走，左轉過馬路就會看到潮和宮，潮和宮對面就是農村公園入口。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          我到農村公園的入口了，要找什麼？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        父親的情書中提到「留心腳下的圖案」，抵達農村公園後，面對潮和宮，低頭看看人行道上的地磚。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          找到圖案了，然後呢？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        觀察撲克牌牌背（有動物的那面），有沒有發現似曾相識的圖案？依據圖案就可以找到需要的撲克牌。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          要怎麼從撲克牌背找出需要的數字？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+        地磚上的圖案有對應到特定的撲克牌，知道這些特定撲克牌上的數字之後，離最後答案就只有一步之遙。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          我放棄，直接告訴我答案。
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+      <div class="card-body">
+        <div>請注意：按確定之後，將直接看到完整的解答。</div>
+        <div><a href="1-answer.html" class="btn btn-warning" role="button" aria-pressed="true">確定，看解答</a></div>
+      </div>
+    </div>
+  </div>
+ </div>
+ 
+				</div>
+			</div>
+		</div>
+		<!-- end clue -->
+
+		<!-- start footer -->
+		<div class="footer givePadding color-primary">
+			<div class="container">
+				<div class="row">
+					<div class="col col-sm-8">
+						<p>想跟我們聊聊，或有更多疑問，<br/>歡迎line：</p>
+					<a href="https://line.me/R/ti/p/%40cms5919y";><img height="36" border="0" alt="加入好友" src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png"></a>
+					</div>				
+				</div>
+			</div>
+		</div>
+		<!-- end footer -->
+
+	</div>
+</body>
+</html>

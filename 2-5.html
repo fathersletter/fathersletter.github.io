@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>【江子翠散步解謎】父親的情書：第二章</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=1;">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main-bg"></div>
+
+		<!-- start navbar -->
+		<nav class="navbar navbar-dark color-primary">
+			<span class="navbar-brand mb-0 h2">江子翠散步解謎</span>
+		</nav>
+		<!-- end navbar -->
+
+		<!-- start jumbotron -->
+		<div class="margin0 jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4 text-center">父親的情書</h1>
+			</div>
+		</div>
+		<!-- end jumbotron -->
+
+		<!-- start letter -->
+		<div class="letter givePadding">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col col-sm-8">
+						<h3 class="text-center">第二章</h3>
+<div class="givePaddingTop">
+<img src="img/letter/2-letter.png" width="100%">
+</div>
+<div class="givePaddingTop">
+<p>「哎喲！什麼調皮的姑娘，真是亂說話。」母親不滿地喊道。</p>
+<p>「我倒是可以想像。」你竊笑道，轉念又說：「爸哪裡不浪漫啊？你看，他連你們幾歲認識的都記得，明明就很貼心嘛。」</p>
+<p>母親聞言暗暗笑了笑，又趕緊哼聲說：「他悶在心裡沒說出來，誰知道他在想什麼啊？不說了不說了，快一起想想這題怎麼解。」 </p>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end letter -->
+
+		<!-- start answer -->
+		<div class="answer givePadding">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col col-sm-8">
+					<p>答案：兩個中文字</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+<div class="col">
+<input type="text" class="form-control" id="StringTextBox">
+</div>
+				</div>
+				<div class="row justify-content-center">
+<div class="col">
+<input type="button" class="btn btn-primary" value="確定" onclick="ChangeString()">
+</div>
+				</div>
+<div id="reply" style="text-align:center;"></div>
+
+<script>
+function ChangeString()
+	{
+	var site=document.getElementById("StringTextBox").value;
+		if(site=="石井"){
+			var NewStringValue = "正確，前往下一章";
+			var result = '<a href="https://fathersletter.github.io/3-石井.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a>';
+		}
+    else if(site=="什錦"){
+      var result="哎呀，講得我肚子也餓了！就差一點點了，第二個注音是ㄥ喔。"
+    }
+		else {var result="答案錯誤，請重新輸入。";}
+	document.getElementById("reply").innerHTML=result;
+	}
+</script>
+				</div>
+			</div>
+		</div>
+		<!-- end answer -->
+
+		<!-- start clue -->
+		<div class="clue container givePadding">
+			<div class="row justify-content-center">
+				<div class="col col-sm-8">
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header color-primary" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn color-primary clue-head" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          需要提示嗎？
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        點擊下方問題，提示會立即出現，請審慎服用。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          這一題的線索在哪裡？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        站在人行道上，看向農村公園的對面，有個地方可以求籤保心安。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          我找到線索的位置了，然後呢？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        父親的情書中，有四條撲克牌花樣的灰底長方形，數數看撲克牌花樣的數量，觀察該建築物的正面，也有同樣排列方式、同樣數量的東西。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          「關鍵隱藏在錯誤中」是什麼意思？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        試著讀讀看，花色順序和中文注音的某個特性有關聯。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          找到線索了，要怎麼找到答案？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+        就差一點點了，將找出來的字，照著錯誤的方式重新發音，再排列組合一下，會有不一樣的發現喔。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          我放棄，直接告訴我答案。
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+      <div class="card-body">
+        <div>請注意：按確定之後，將直接看到完整的解答。</div>
+        <div><a href="2-answer.html" class="btn btn-warning" role="button" aria-pressed="true">確定，看解答</a></div>
+      </div>
+    </div>
+  </div>
+ </div>
+ 
+				</div>
+			</div>
+		</div>
+		<!-- end clue -->
+
+		<!-- start footer -->
+		<div class="footer givePadding color-primary">
+			<div class="container">
+				<div class="row">
+					<div class="col col-sm-8">
+						<p>想跟我們聊聊，或有更多疑問，<br/>歡迎line：</p>
+					<a href="https://line.me/R/ti/p/%40cms5919y";><img height="36" border="0" alt="加入好友" src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png"></a>
+					</div>				
+				</div>
+			</div>
+		</div>
+		<!-- end footer -->
+
+	</div>
+</body>
+</html>

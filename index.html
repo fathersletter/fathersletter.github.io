@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>【江子翠散步解謎】父親的情書：第零章</title>
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=1;">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
@@ -15,13 +15,13 @@
 		<div class="main-bg"></div>
 
 		<!-- start navbar -->
-		<nav class="navbar navbar-dark bg-primary">
+		<nav class="navbar navbar-dark color-primary">
 			<span class="navbar-brand mb-0 h2">江子翠散步解謎</span>
 		</nav>
 		<!-- end navbar -->
 
 		<!-- start jumbotron -->
-		<div class="jumbotron jumbotron-fluid">
+		<div class="margin0 jumbotron jumbotron-fluid">
 			<div class="container">
 				<h1 class="display-4 text-center">父親的情書</h1>
 			</div>
@@ -34,7 +34,7 @@
 				<div class="row justify-content-center">
 					<div class="col col-sm-8">
 						<h3 class="text-center">第零章</h3>
-<div>
+<div class="givePaddingTop">
 <p>咚！咚！咚咚咚！</p>
 <p>美好的假日早晨，你卻被急促的敲門聲驚醒，睡眼惺忪地爬下床打開房門，眼前出現是莫名興奮卻又企圖保持鎮定的母親。你皺起眉頭正想問她發生什麼大事，她已經興沖沖地把一張紙條往你臉上湊。</p>
 <p>「你看你看！我做完早飯喊你爸來吃，喊半天都沒人下來，才發現餐桌上放了這張紙，和一盒撲克牌！」</p>
@@ -56,7 +56,7 @@
 
 		<!-- start instruction -->
 			<div class="row">
-					<div class="col bg-primary">
+					<div class="col color-primary">
 						<p class="text-center instruction-head">遊戲說明</p>
 					</div>
 			</div>
@@ -66,8 +66,8 @@
 <ol>
 <li>各章節會有一封父親留下來的信，請仔細閱讀信件上的文字及圖案，配合周遭環境及撲克牌，解出答案。母親與你的對話可能也有線索喔！</li>
 <li>撲克牌上有許多資訊，請先參考遊戲網頁上的描述，再尋找對應的牌，以免混淆。 題目中可能會出現牌面、牌背的敘述，牌面為數字面，牌背為動物面。</li>
-<li>遊戲主網址為：https://sites.google.com/view/fathersletter/ 。</li>
-<li>各章節解出的答案，請於欄位中輸入，並點選「確定」；若答案正確，畫面將顯示下一章節網址，複製後貼至瀏覽器網址列即可前往。請注意，答案可能為中文、英文或數字；若答案為英文字母，請注意大小寫及全半形。</li>
+<li>遊戲主網址為：http://fathersletter.github.io/。</li>
+<li>各章節解出的答案，請於欄位中輸入，並點選「確定」；若答案正確，將出現「正確，前往下一章」，點擊後進入到下一章。請注意，答案可能為中文、英文或數字；若答案為英文字母，請注意大小寫及全半形。</li>
 <li>手機是解題的好夥伴，可視情況使用相機、地圖、計算機等功能。</li>
 <li>如果已了解遊戲規則，在下方欄位輸入「出發」後點選「確定」，點選出現的超連結即可前往第一章，開始遊戲。</li>
 <li>Have a nice day!</li>
@@ -103,7 +103,7 @@ function ChangeString()
 	var site=document.getElementById("StringTextBox").value;
 		if(site=="出發"){
 			var NewStringValue = "正確，前往下一章";
-			var result = '<a href="http://bit.ly/2IR909Z" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a>';
+			var result = '<a href="https://fathersletter.github.io/1-出發.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a>';
 		}
 		else {var result="答案錯誤，請重新輸入。";}
 	document.getElementById("reply").innerHTML=result;
@@ -115,23 +115,23 @@ function ChangeString()
 		<!-- end answer -->
 
 		<!-- start clue -->
-		<div class="clue container">
-			<div class="row">
+		<div class="clue container givePadding">
+			<div class="row justify-content-center">
 				<div class="col col-sm-8">
 
 <div id="accordion">
   <div class="card">
-    <div class="card-header" id="headingOne">
+    <div class="card-header color-primary" id="headingOne">
       <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
+        <button class="btn color-primary clue-head" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          需要提示嗎？
         </button>
       </h5>
     </div>
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        點擊下方問題，提示會立即出現，請審慎服用。
       </div>
     </div>
   </div>
@@ -139,38 +139,25 @@ function ChangeString()
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
+          直接告訴我第一張的網址。
         </button>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <a href="https://fathersletter.github.io/1-出發.html">https://fathersletter.github.io/1-出發.html</a>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
+ </div>
+ 
 				</div>
 			</div>
 		</div>
 		<!-- end clue -->
 
 		<!-- start footer -->
-		<div class="footer givePadding">
+		<div class="footer givePadding color-primary">
 			<div class="container">
 				<div class="row">
 					<div class="col col-sm-8">

@@ -9,6 +9,14 @@ body{
 
 }
 
+.margin0{
+	margin-bottom: 0px;
+}
+
+.color-primary{
+	background-color: #26453D;
+}
+
 .wrapper{
 	overflow: hidden;
 }
@@ -27,9 +35,13 @@ body{
 	padding-bottom: 30px;
 }
 
+.givePaddingTop{
+	padding-top: 20px;
+}
+
 /* letter */
 .letter{
-	background: #FAD689;
+
 }
 
 /* instruction */
@@ -41,7 +53,7 @@ body{
 }
 
 .instruction{
-	background: #FAD689;
+
 }
 
 .instruction-text{
@@ -59,8 +71,12 @@ body{
 	text-align: center;
 }
 
+/* clue */
+.clue-head{
+	color:#fff;
+}
+
 /* footer */
 .footer{
-	background: #0B346E;
 	color: white;
 }
