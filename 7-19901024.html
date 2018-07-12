@@ -35,7 +35,7 @@
 					<div class="col col-sm-8">
 						<h3 class="text-center">第七章</h3>
 <div class="givePaddingTop">
-<img src="https://imgur.com/rKmUgd8.jpg" width="100%">
+<img src="https://imgur.com/Fnl5q5z.jpg" width="100%">
 </div>
 <div class="givePaddingTop">
 <p>「什麼嘛，這傢伙，明明記得我們的結婚紀念日，幹嘛每年都要我提醒才有所表示。」母親抱怨道。</p>
@@ -82,7 +82,11 @@ function ChangeString()
 		}
 		else if(site=="family"){
 			var NewStringValue = "正確，前往下一章";
-      var result = '<h6><a href="https://fathersletter.github.io/8-family.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a></h6>';
+      		var result = '<h6><a href="https://fathersletter.github.io/8-family.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a></h6>';
+		}
+		else if(site=="Family"){
+			var NewStringValue = "正確，前往下一章";
+      		var result = '<h6><a href="https://fathersletter.github.io/8-family.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a></h6>';
 		}
 		else {var result="答案錯誤，請重新輸入。";}
 	document.getElementById("reply").innerHTML=result;
