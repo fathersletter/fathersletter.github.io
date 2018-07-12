@@ -70,7 +70,7 @@
 <input type="button" class="btn btn-primary" value="確定" onclick="ChangeString()">
 </div>
 				</div>
-<div id="reply" style="text-align:center;"></div>
+<div id="reply" class="givePaddingTop" style="text-align:center;"></div>
 
 <script>
 function ChangeString()
@@ -78,11 +78,15 @@ function ChangeString()
 	var site=document.getElementById("StringTextBox").value;
 		if(site=="AFU"){
 			var NewStringValue = "正確，前往下一章";
-			var result = '<a href="https://fathersletter.github.io/4-afu.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a>';
+			var result = '<h6><a href="https://fathersletter.github.io/4-afu.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a></h6>';
 		}
     else if(site=="afu"){
       var NewStringValue = "正確，前往下一章";
-      var result = '<a href="https://fathersletter.github.io/4-afu.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a>';
+      var result = '<h6><a href="https://fathersletter.github.io/4-afu.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a></h6>';
+    }
+    else if(site=="Afu"){
+      var NewStringValue = "正確，前往下一章";
+      var result = '<h6><a href="https://fathersletter.github.io/4-afu.html" style="text-decoration:none; color:black; border-bottom: 1px solid; border-color:#376B6D; box-shadow: inset 0 -3px 0 #376B6D;">' + NewStringValue + '</a></h6>';
     }
 		else {var result="答案錯誤，請重新輸入。";}
 	document.getElementById("reply").innerHTML=result;
@@ -124,7 +128,7 @@ function ChangeString()
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
-        繞一圈三合院看看，有沒有特別大的兩扇窗。可以先用手機照相起來，再到旁邊石椅慢慢解讀。不過要小心蚊蟲多。
+        繞一圈三合院，找找最大的兩扇窗戶（有六根竹子的）。可以先用手機拍下來，再到附近石椅解題。小心蚊蟲較多喔！
       </div>
     </div>
   </div>
@@ -138,7 +142,7 @@ function ChangeString()
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
-        數數看這兩扇窗的竹子根數，和方格圖上方的圖一致。井和廁所圖示則分別暗示該排方格應對應哪扇窗戶。
+        圖案則分別暗示該排方格應對應哪扇窗戶，即該排方格應對應廁所旁邊或石井旁邊的窗戶。
       </div>
     </div>
   </div>
@@ -146,13 +150,13 @@ function ChangeString()
     <div class="card-header" id="headingFour">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          要怎麼找到需要的撲克牌？
+          如何找出需要的撲克牌？
         </button>
       </h5>
     </div>
     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-        觀察撲克牌牌背（有動物的那面），找到和題目相關的植物，和竹子段數量對應的就是需要的撲克牌。可能有多個線段圖形對應到同個撲克牌。
+        觀察撲克牌牌背（有動物的那面），找到畫有竹子的撲克牌，即為需要的撲克牌。再挑出和竹段數量對應的的撲克牌進行解題，例如：信上的竹子有3個竹段，就須挑出畫有竹子且數字為3的撲克牌。
       </div>
     </div>
   </div>
@@ -166,7 +170,7 @@ function ChangeString()
     </div>
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
       <div class="card-body">
-        仔細看看這些撲克牌牌面（有數字的那面），有什麼異樣之處。和其他同數字的撲克牌相比，牌面上有個東西被轉動了。
+        仔細觀察這些撲克牌牌面（有數字的那面），花色的部分被轉動了。和其他同數字的撲克牌比對看看，可以確定轉動的角度。
       </div>
     </div>
   </div>
@@ -180,7 +184,7 @@ function ChangeString()
     </div>
     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
       <div class="card-body">
-        牌面上的某個東西被旋轉了。將各個方格按照對應的撲克牌轉動，線段會重新組合出答案。
+        牌面上的某個東西被旋轉了。將各個方格按照對應的撲克牌轉動，線段會組合出答案。
       </div>
     </div>
   </div>
